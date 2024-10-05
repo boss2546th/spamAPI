@@ -40,6 +40,8 @@ try:
     print(r.json())
 except:
     print('error')
+
+# note: support only post method
 ```
 
-note: support only post method
+
