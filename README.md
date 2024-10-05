@@ -37,7 +37,7 @@ url = "https://spambackend-644030095619.asia-east1.run.app/predict"
 try:
     msg = {'message':str(input('message : '))}
     r = requests.post(url, json = msg)
-    print(r.text)
+    print(r.json())
 except:
     print('error')
 ```
